@@ -1,5 +1,4 @@
-import React from "react";
+import File from "./File";
+import Text from "./Text";
 
-export default function MyComponent(props) {
-  return <input type="file" />;
-}
+export { File, Text };
